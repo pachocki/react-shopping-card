@@ -1,0 +1,150 @@
+body{
+    background:#212529!important;
+}
+.nav-link{
+    color:white!important;
+}
+.home{
+    display:flex;
+    background:#212529;
+}
+.btn .badge {
+    background: none!important;
+}
+.product-container{
+    display:flex;
+    width:78%;
+    padding:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.filters{
+    background-color:#009eb2;
+    color:white;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    width:20%;
+    height:80vh;
+    border-radius: 0 10px 10px 0px;
+    justify-content:space-around;
+    margin-top:20px;
+    top: 15%;
+    position: sticky;
+    
+}
+.form-check-input:checked {
+    background-color: #fd0d0d!important;
+    border-color: #fd0d0d!important;
+}
+.products{
+    width:30%;
+    margin:10px;
+}
+.cart-item{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin:10px 20px;
+
+}
+.cart-item-img{
+    border-radius:50px;
+    width:50px;
+    height:50px;
+    object-fit:cover;
+}
+.cart-item-detail{
+    display:flex;
+    flex:1;
+    padding:0 20px;
+    flex-direction: column;
+}
+.navbar-expand .navbar-nav .dropdown-menu {
+    left:-280px;
+}
+.navbar-text{
+    flex: 1;
+    padding-right: 10px;
+}
+.container{
+    margin-left:0!important;
+}
+.product-container{
+    width:70%;
+    margin:auto;
+}
+
+
+/*Media Queries*/
+@media(max-width:771px){
+    .filters{
+        width:22%;
+        padding:10px;
+    }
+    .filters>span{
+        font-size:10px;
+    }
+    .title{
+        font-size:18px!important;
+    }
+    .product-container{
+        width:78%;
+        padding:0
+    }
+    .navbar-text{
+        display:none!important;
+    }
+}
+@media(max-width:580px){
+    button.btn.btn-dark{
+        font-size:10px!important;
+    }
+    button.btn.btn-primary{
+        font-size:10px!important;
+    }
+    .card-title{
+        font-size:1rem!important;
+    }
+    .card-subtitle{
+        font-size:12px!important;
+    }
+    svg{
+        font-size:10px;
+    }
+    .shopping-link{
+        font-size:12px!important;
+    }
+}
+@media (max-width: 576px){
+.container, .container-sm {
+    max-width: 100vh!important;
+}
+}
+@media(max-width:480px){
+    .navbar{
+        justify-content: flex-start!important;
+        
+    }
+    .card-title{
+        font-size:12px!important;
+    }
+    button.btn.btn-primary{
+        padding:2px!important;
+    }
+    button.btn.btn-dark{
+        margin:2px!important;
+    }
+    .filters{
+        width:26%!important;
+        padding:2px!important;
+    }
+    .logo{
+        width:60px;
+    }
+
+}
